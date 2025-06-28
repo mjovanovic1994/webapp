@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.login-screen {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+
+.login-form {
+  background: #222;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.login-form input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 1rem;
+}
+
+.grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.agenda,
+.chat,
+.evaluatiepunten {
+  background: #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 300px;
+}
+
+/* Rest van de CSS zoals eerder beschreven voor chat, agenda en evaluatiepunten */
